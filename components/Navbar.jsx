@@ -8,8 +8,8 @@ const Navbar = () => {
         <Link href="/">
             <a className='navbar-brand'>Superhero Identity</a>
         </Link>
-        <Link href="/new">
-            <MDBBtn>New Identity</MDBBtn>
+        <Link href="/add">
+            <MDBBtn outline color='dark'>New Identity</MDBBtn>
         </Link>
     </nav>
   )
