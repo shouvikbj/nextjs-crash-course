@@ -21,7 +21,7 @@ const AddNewHero = () => {
   const handleForm = async (e) => {
     e.preventDefault()
     try {
-      const res = await axios("http://localhost:3000/api/hero",{
+      const res = await axios("https://nextcc.vercel.app/api/hero",{
         method: "POST",
         headers: {
           "Content-Type": "application/json"

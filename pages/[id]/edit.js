@@ -23,7 +23,7 @@ const EditHero = ({hero}) => {
   const handleForm = async (e) => {
     e.preventDefault()
     try {
-      const res = await axios(`http://localhost:3000/api/hero/${heroId}`,{
+      const res = await axios(`https://nextcc.vercel.app/api/hero/${heroId}`,{
         method: "PUT",
         headers: {
           "Content-Type": "application/json"

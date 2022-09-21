@@ -16,7 +16,7 @@ const EachHero = ({hero}) => {
 
   const deleteHero = async () => {
     try {
-      const deleteHero = await axios(`http://localhost:3000/api/hero/${heroId}`, {
+      const deleteHero = await axios(`https://nextcc.vercel.app/api/hero/${heroId}`, {
         method: "DELETE"
       })
       router.push("/")

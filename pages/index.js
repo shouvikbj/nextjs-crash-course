@@ -34,7 +34,7 @@ const index = ({heros}) => {
 }
 
 export const getServerSideProps = async () => {
-  const res = await axios("http://localhost:3000/api/hero", {
+  const res = await axios("https://nextcc.vercel.app/api/hero", {
     method: "GET"
   })
   const {hero} = res.data
