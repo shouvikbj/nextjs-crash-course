@@ -5,7 +5,7 @@ dbConnect()
 
 // get a unique record, edit a record, delete a unique record
 
-export default async (req, res) => {
+const getEditDelete = async (req, res) => {
     const {
         query: {id},
         method
@@ -52,3 +52,5 @@ export default async (req, res) => {
             break;
     }
 }
+
+export default getEditDelete

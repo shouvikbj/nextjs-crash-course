@@ -4,7 +4,7 @@ import Link from 'next/link';
 import {MDBInput, MDBBtn} from 'mdb-react-ui-kit';
 import {useRouter} from "next/router"
 
-const addNewHero = () => {
+const AddNewHero = () => {
   const router = useRouter()
   const [form, setForm] = useState({
     superHero: "",
@@ -58,4 +58,4 @@ const addNewHero = () => {
   )
 }
 
-export default addNewHero
+export default AddNewHero
